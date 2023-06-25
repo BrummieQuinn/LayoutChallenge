@@ -1,0 +1,261 @@
+html {
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color:rgb(38, 38, 72);
+    height: 100vh;
+
+    
+
+    
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+    background-color: #D8F2FF;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+header {/*container for logo, navmenu, cart*/
+
+display: flex;
+
+flex-flow: row;
+
+align-items: center;
+
+justify-content: space-around;
+
+width: 100%;
+
+height: 25%;
+
+margin-top: 10px;
+margin-left: 40px;
+}
+
+.logo {
+
+    width: 30%;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+}
+
+img[src="images/logo.png"]{
+    width: 40%;
+}
+
+.navmenu {
+
+    position: relative;
+    right: 15rem;
+}
+
+nav {
+
+display: flex;
+
+flex-flow: column wrap;
+
+width: 50%;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+
+    list-style: none;
+}    
+
+.navitems {
+
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+    
+}
+
+.navitems a {
+    text-align: center;
+
+    color:rgb(38, 38, 72);
+  
+}
+
+img[src="images/cart.png"] {
+
+    position: relative;
+    left: 40%;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 50%;
+}
+main {
+
+    display: flex;
+    flex-flow: column wrap;
+
+    width: 100%;
+
+}
+
+section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+    bottom: 50rem;
+    right: 42rem;
+
+    
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+}
+
+.social {
+    position: absolute;
+    left: -13rem;
+    bottom: 6rem;
+}
+
+
+.socialitems { 
+    position: fixed;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+
+    list-style: none;
+    
+    margin: 0;
+    
+    
+
+}
+
+.socialicons {
+
+    margin-bottom: 20px;
+}
+
+ img[src="images/twitter.png"] {
+    height: 35px;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+    object-fit: scale-down;
+ }
+
+img[src="images/facebook.png"]
+img[src="images/instagram.png"]
+img[src="images/linkedin.png"] {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+button {
+
+    position: relative;
+    left: 17rem;
+    bottom: -5rem;
+
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+
+
+    background-image: linear-gradient(to top right, lightblue, hotpink);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+h1 {
+
+    position: relative;
+    left: 17rem; 
+    top: 6rem;
+
+    font-size: 35px;
+
+    
+
+    
+
+}
+
+h2 {
+
+    position: relative;
+    left: 17rem;
+    top: 6rem;
+
+    font-size: 30px;
+    font-weight: 100;
+    word-spacing: 0rem;
+}
+
+
+
+img[src="images/img.png"] {
+
+    position: relative;
+    left: 60rem;
+    bottom: 24rem;
+    
+ 
+    margin: 0;
+    padding: 0;
+    width: 47rem;
+
+    
+}
+
+.navbuttons {
+
+    position: relative;
+    left: 23rem;
+    bottom: 40rem;
+}
+
+.navbuttons img {
+   height: 40px;
+    width: 40px;
+}
+img[src="images/next-arrow.png"] {
+    
+    margin-left: 50px;
+}
+
+ 
+
